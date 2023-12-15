@@ -23,6 +23,6 @@ public class HomeController {
             log.warn("[" + envInfo + "] /aws/v2 warn로그 #########################");
 //            log.debug("/aws/v1 debug로그 #########################");
         }
-        return "<h1>AWS 배포 v2</h1>";
+        return "<h1>허지우 v2</h1>";
     }
 }

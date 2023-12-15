@@ -21,7 +21,7 @@ class HomeControllerTest {
     void hello() {
         System.out.println("port: " + port);
         ResponseEntity<String> response = restTemplate.getForEntity("/aws/v2", String.class); // /aws/v1으로 reqeust하고 reponse를 변수에 할당.
-        assertEquals("<h1>AWS 배포 v2</h1>", response.getBody()); // response의 값이 동일하면 테스트가 정상적으로 완료됨.
+        assertEquals("<h1>허지우 v2</h1>", response.getBody()); // response의 값이 동일하면 테스트가 정상적으로 완료됨.
     }
 
 }
